@@ -35,7 +35,7 @@
 #home{
     display: flex;
     flex-direction: column;
-    height: 840px;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     color:white;
@@ -65,8 +65,14 @@
     text-align: center;
     margin: 40px 0px;
 }
-/* Contact Us Section */
-#contactus{
+.container{
+    text-align: center;
+}
+.tempo{
+    margin: 7px;
+}
+/* Create New Details Section */
+#createnewdetails{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -105,4 +111,15 @@
 #send:hover{
     cursor: pointer;
     box-shadow: 0 0 10px white;
+}
+#my-tempo{
+    z-index: 3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 30px;
+    border: 1px solid brown;
 }
